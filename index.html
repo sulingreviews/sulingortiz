@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head> 
+
+		<meta charset="UTF-8">
+
+		<title>My Website Homepage</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="stylesheets.css">
+
+	</head>
+
+	<body>
+	
+	<h3>Jessica Ortiz</h3>
+	
+	<H2>LIFE IN QUARANTINE, SPRING 2020</H2>
+
+				<figure>
+		<center>
+
+		<img src="images/selfie.jpg" style="width: 50%" alt="Self Portrait"> 
+		<figcaption>Pandemic Selfie, April 2020</figcaption> 
+
+		</center>
+	</figure>
+
+	<p>
+		Over the last several weeks, the coronavirus pandemic has forced the government to shut down all non-essential operations and mandate that the public stays home to help flatten the curve of the spread. In this time of quarantine, I have been released from my job in the restaurant industry and had my classes transition to a distance learning protocol. Most days I spend at home but every once in a while I venture out into society to take a look around and see what’s happening.
+	</p>
+
+	<P>
+		For my final project, a photo gallery documenting my home life, I decided to document the economic shut down that my neighborhood in Woodside Queens, including the surrounding areas of Jackson Heights, Sunnyside and Long Island City, are enduring during this time. Above is a self portrait of myself wearing my face mask as I embark on a photo walk exploring the neighborhood. On my walks I’ve encountered empty parks, shuttered store fronts, pedestrians wearing their personal protective equipment, COVID-19 graffiti, and messages of hope, gratitude and resilience from the community.		
+	</P>
+
+	<P>
+		In the midst of this pandemic, it feels as if time is standing still and the light at the end of the tunnel is still nowhere in sight, but I am confident that eventually we will get through this crisis as a society and regain a sense of community and unity. I look forward to the day when many of these shuttered businesses will reopen, the city streets will come back to life and we will no longer live in fear of contracting or spreading a deadly infection.
+	</P>
+
+<head> 
+
+
+		<title>Image Gallery</title>
+
+		<meta charset="UTF-8">
+
+   		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!--   jquery hosted library   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <style>
+    	{box-sizing: border-box}
+    	.mySlides {display: none}
+    	img {vertical-align: middle;}
+
+    	.slideshow-container {
+    		max-width: 60%;
+    		position: relative;
+    		margin: auto;
+    	}
+
+    	.prev, .next {
+    		cursor: pointer;
+    		position: absolute;
+    		top: 50%;
+    		width: auto;
+    		padding: 16px;
+    		margin-top: -22px;
+    		color: darkgreen;
+    		font-weight: bold;
+    		font-size: 18px;
+    		transition: 0.6s ease;
+    		border-radius: 0 3px 3px 0;
+    		user-select: none;
+    	}
+
+    	.next {
+    		right: 0;
+    		border-radius: 3px 0 0 3px;
+    	}
+
+    	.prev:hover, .next:hover {
+    		background-color: white;
+    	}
+
+    	.text {
+    		color: darkgreen;
+    		font-size: 20px;
+    		font-weight: bold;
+        background-color: white;
+    		padding: 8px 12px;
+    		position: absolute;
+    		bottom: 10px;
+    		width: 100%;
+    		text-align: center;
+    	}
+
+    	.numbertext {
+    		color: black;
+    		font-size: 12px;
+    		padding: 8px 12px;
+    		position: absolute;
+    		top: 0;
+    	}
+
+    	.dot {
+  			cursor: pointer;
+  			height: 15px;
+  			width: 15px;
+  			margin: 0 2px;
+  			background-color: #bbb;
+  			border-radius: 50%;
+  			display: inline-block;
+  			transition: background-color 0.6s ease;
+		}
+
+		.active, .dot:hover {
+  			background-color: #717171;
+		}
+
+		.fade {
+  			-webkit-animation-name: fade;
+  			-webkit-animation-duration: 1.5s;
+  			animation-name: fade;
+  			animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+  			from {opacity: .4} 
+  			to {opacity: 1}
+		}
+
+		@keyframes fade {
+  			from {opacity: .4} 
+  			to {opacity: 1}
+		}
+
+		@media only screen and (max-width: 300px) {
+  			.prev, .next,.text {font-size: 11px}
+		}
+
+</style>
+
+  </head>
+
+  <body>
+
+				
+				<H2>COVID-19 IMAGE GALLERY, SPRING 2020</H2>
+
+	<div class="slideshow-container">
+		
+
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 20</div>
+			<img src="images/closedsign.jpg" style="width: 100%">
+			<div class="text">Jackson Heights: Many stores were forced to close.</div>
+		</div>	
+
+		<div class="mySlides fade">	
+			<div class="numbertext">2 / 20</div>
+			<img src="images/emptypark.jpg" style="width: 100%"> 
+			<div class="text">Jackson Heights: Public areas closed off, chairs stacked.</div>
+		</div>	
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 20</div>
+			<img src="images/emptystreet.jpg" style="width: 100%"> 
+			<div class="text">Jackson Heights: Eerily quiet roads.</div>
+		</div>	
+	
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 20</div>
+			<img src="images/essentialworkers.jpg" style="width: 100%">
+			<div class="text">Jackson Heights: Gratitude for our Essential Workers.</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">5 / 20</div>
+			<img src="images/fempedestrian.jpg" style="width: 100%">
+			<div class="text">Jackson Heights: Mandated personal protective equipment.</div>
+		</div> 	
+
+		<div class="mySlides fade">
+			<div class="numbertext">6 / 20</div>
+			<img src="images/fuckcovid19.jpg" style="width: 100%">
+			<div class="text">Jackson Heights: The airing of grievances.</div>
+		</div> 
+
+		<div class="mySlides fade">
+			<div class="numbertext">7 / 20</div>
+			<img src="images/glove.jpg" style="width: 100%">
+			<div class="text">Woodside: PPE litter, a sign of the times.</div> 
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">8 / 20</div>	
+			<img src="images/inconvenience.jpg" style="width: 100%">
+			<div class="text">Woodside: Blame the virus for the closures.</div>
+		</div>	 
+
+		<div class="mySlides fade">
+			<div class="numbertext">9 / 20</div>
+			<img src="images/kidsign.jpg" style="width: 100%">
+			<div class="text">Jackson Heights: Kid's express their gratitude.</div>
+		</div>	 
+
+		<div class="mySlides fade">
+			<div class="numbertext">10 / 20</div>
+			<img src="images/manonline.jpg" style="width: 100%">
+			<div class="text">Woodside: Lines form to enter Duane Reade</div>
+		</div>	 
+
+		<div class="mySlides fade">
+			<div class="numbertext">11 / 20</div>
+			<img src="images/noentry.jpg" style="width: 100%">
+			<div class="text">Woodside: Stores enforcing PPE for entry.</div> 
+		</div>	
+
+        <div class="mySlides fade">
+        	<div class="numbertext">12 / 20</div>
+        	<img src="images/playground.jpg" style="width: 100%">
+        	<div class="text">Jackson Heights: School closed, playground abandoned.</div>
+        </div>	 
+
+        <div class="mySlides fade">
+        	<div class="numbertext">13 / 20</div>
+        	<img src="images/redawnings.jpg" style="width: 100%">
+        	<div class="text">Jackson Heights: Row of businesses with red awnings, all closed.</div>
+        </div>	 
+
+         <div class="mySlides fade">
+         	<div class="numbertext">14 / 20</div>
+         	<img src="images/seeyousoon.jpg" style="width: 100%">
+         	<div class="text">Jackson Heights: A message of hope.</div>
+         </div>	 
+
+         <div class="mySlides fade">
+         	<div class="numbertext">15 / 20</div>
+        	<img src="images/storefronts.jpg" style="width: 100%"> 
+        	<div class="text">Jackson Heights: I have never seen this street so empty.</div>
+        </div>	
+
+        <div class="mySlides fade">
+        	<div class="numbertext">16 / 20</div>
+        	<img src="images/cheatdeath.jpg" style="width: 100%">
+        	<div class="text">Long Island City: Graffiti on the Thompson Ave Bridge.</div>
+        </div>
+        
+        <div class="mySlides fade">
+        	<div class="numbertext">17 / 20</div>
+        	<img src="images/forrent.jpg" style="width: 100%">
+        	<div class="text">Sunnyside: Subway restaurant closed down.</div>
+        </div>
+        
+        <div class="mySlides fade">
+        	<div class="numbertext">18 / 20</div>
+        	<img src="images/jameson.jpg" style="width: 100%">
+        	<div class="text">Sunnyside: Liquor stores are essential businesses.</div>
+        </div>
+        
+        <div class="mySlides fade">
+        	<div class="numbertext">19 / 20</div>
+        	<img src="images/sunnysidestrong.jpg" style="width: 100%">
+        	<div class="text">Sunnyside: Sending thoughts and prayers.</div>
+        </div>
+        
+        <div class="mySlides fade">
+        	<div class="numbertext">20 / 20</div>
+        	<img src="images/tapedsign.jpg" style="width: 100%">
+        	<div class="text">Woodside: Masking tape coming in handy.</div>
+        </div>
+        	
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+	
+	<div class="footer">
+		<h5>Written and Created by Jessica Ortiz 
+	</div>
+
+
+
+	
+	 </body>

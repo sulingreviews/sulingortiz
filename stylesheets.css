@@ -1,0 +1,102 @@
+
+body { 
+	background-color: wheat;
+}
+
+h1 {
+	margin: 50px;
+	font-family: georgia; 
+	font-weight: bold;
+	color: orangered; 
+	font-size: 200%;
+	text-align: center;
+}
+
+h2 {
+	font-family: georgia; color: maroon;
+	font-weight: bold;
+	font-size: 350%;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Lobster', cursive;	
+	font-size: 500%;
+	text-align: center;
+	border: 3px solid black;
+	padding: 10px;
+	background-color: darksalmon;
+}
+
+h4 {
+	font-family: georgia;
+	font-size: 175%;
+	text-align: center;
+}
+
+h6 {
+	margin: 50px;
+	font-family: georgia; 
+	font-weight: bold;
+	color: darkgreen; 
+	font-size: 200%;
+	text-align: left;
+}
+
+
+p { 
+	margin: 50px;
+	font-family: courier;
+	font-size: 120%; 
+}
+
+a {
+	color: orangered;
+	font-weight: bold;
+}
+
+
+img {
+	border: 20px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: wheat;
+}
+
+.navbar a {
+	float: left;
+	font-size: 20px;
+	color: darkgreen;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: white;
+}
+
+.regular {
+	float: none;
+	border: none;
+	box-shadow: none;
+}
+
+
+.footer {
+	position: bottom;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+   	background-color: darksalmon;
+   	padding: 1px;
+	font-family: georgia;	
+   	color: black;
+   	text-align: center;
+   	border: 1px solid black;
+
+
+}
